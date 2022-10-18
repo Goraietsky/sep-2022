@@ -1,0 +1,48 @@
+.oneblock {
+    background: chartreuse;
+    height: 300px;
+    display: flex;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+
+
+}
+.block {
+    background: #ffffff;
+
+    height: 350px;
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    column-gap: 25px;
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.miniblock {
+    background: crimson;
+
+    height:350px;
+    width: 500px;
+    display: flex;
+    font-weight: 800;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+.twoblock {
+    background: chartreuse;
+    height: 300px;
+  font-weight: 800;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+}
