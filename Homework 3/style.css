@@ -3,52 +3,67 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
-.block {
+.container {
     background: silver;
     width: 100%;
-    height: 800px;
-    display: flex;
-    align-items: normal;
+    height: 1000px;
 }
-.ome {
+.menu {
     background: silver;
     width: 100%;
-    height: 150px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftmenu {
+    background: darkblue;
+    width: 90px;
+    height: 35px;
+    margin-left: 75px;
+    border-radius: 15px;
+}
+
+
+
+.rightmenu {
+    background: silver;
+    width: 100px;
+    height: 50px;
     display: flex;
     align-items: center;
+    margin-right: 50px;
+}
+.ikons {
+    margin-right: 20px;
+    color: black;
+}
+.body {
+    background: darkblue;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.block {
+display: flex;
+    column-gap: 10px;
+    align-items: flex-end;
+    position: relative;
+    top: 80px;
+
 
 }
 .blocks {
-    background: blue;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    column-gap: 45px;
+    background: darkorange;
+    width: 150px;
+    height: 150px;
 
 }
 
-  .miniblock {
-      background: hotpink;
-      width: 180px;
-      height: 150px;
-      position: relative;
-      top: 250px;
-      left: 50px;
-
-
-  }
-  .top {
-      color: white;
-      padding-left: 1300px;
-      font-size: 25px;
-  }
-  .fa-bars {
-      padding-right: 10px;
-  }
 
 
 
-  :
+
+
